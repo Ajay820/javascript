@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="width">
+        <h1 class="palli">Pallindrome-Checker</h1>
+        <div>
+            <input type="text" id="input" placeholder="enter here to check ">
+        </div>
+        <button onclick="check()">Check</button>
+        <h1 id="test"></h1>
+    </div>
+        <script>
+        function check(){
+            let input = document.getElementById("input").value
+            let input2 = input.split("")
+            let ans = input2.reverse()
+            let final = ans.join("")
+
+            if(input == final){
+                let view = document.getElementById("test")
+                view.innerText="this is pallindrome";
+            }
+            else{
+                let view2 = document.getElementById("test")
+                view2.innerText="this is not a pallindrome"
+            }
+        }
+    </script>
+</body>
+</html>

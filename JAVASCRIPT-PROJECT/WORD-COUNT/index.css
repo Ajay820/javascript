@@ -1,0 +1,25 @@
+body{
+    background-color:#50DBB4;
+}
+
+#test{
+    color:#ffffff;
+}
+
+.width{
+    max-width:20%;
+    margin:20px auto;
+}
+
+input{
+    height:20px;
+    width:300px;
+    border-radius:20px;
+    border:2px solid #50DBB4;
+    padding:5px;
+    font-size:20px;
+    color:#000000;
+}
+
+
+

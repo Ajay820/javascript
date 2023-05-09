@@ -1,0 +1,39 @@
+body{
+    height:100vh;
+    background-color:#1B98F5;
+}
+
+#copy{
+    height:40px;
+    width:300px;
+    border-radius:20px;
+    font-size:30px;
+    padding:4px;
+    border:1px solid #1B98F5;
+}
+
+.copy{
+    max-width:30%;
+    margin:40px auto;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.h1{
+    color:#ffffff;
+    max-width:20%;
+    margin:40px auto;
+
+}
+
+button{
+    border-radius:20px;
+    padding:5px;
+    height:40px;
+    width:100px;
+    background-color:#5A20CB;
+    box-shadow:0 0 3px orange;
+    margin-left:20px;
+    margin-top:5px;
+    border:1px solid #1B98F5;
+}

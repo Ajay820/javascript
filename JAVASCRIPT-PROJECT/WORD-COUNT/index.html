@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="width">
+        <form name="newform">
+            <input type="text" name="four" oninput="count()">
+        </form>
+        <h1 id="test">
+            <p>Word Count:0 <br> Length of Words :0</p>
+        </h1>
+    </div>
+    <script>
+        function count(){
+            let input = document.newform.four.value
+            let tlength = input.length
+            let ans = input.split(" ")
+            let wcount = ans.length - 1
+            document.getElementById("test").innerText = `Word count is ${wcount} \n Length of words  ${tlength}`
+
+        }
+    </script>
+</body>
+</html>

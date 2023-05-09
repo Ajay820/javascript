@@ -1,0 +1,40 @@
+body{
+    background-color:#000000;
+}
+
+#input{
+    height:30px;
+    width:400px;
+    border-radius:20px;
+    color:#000000;
+    font-size:20px;
+}
+
+.width{
+    max-width:30%;
+    margin:0 auto;
+}
+
+button{
+    height:37px;
+    width:100px;
+    margin-top:20px;
+    margin-left:140px;
+    padding:5px;
+    border-radius:10px;
+    background-color:#5DA3FA;
+    font-size:20px;
+    color:#ffffff;
+}
+
+#test{
+    color:#ffffff;
+    margin-left:70px;
+}
+
+
+.palli{
+    color:#ffffff;
+    margin-left:40px;
+}
+
